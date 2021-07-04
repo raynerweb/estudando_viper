@@ -21,6 +21,8 @@
 		9584900126887C0D00EC7025 /* SprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95848FFF26887C0D00EC7025 /* SprintViewController.swift */; };
 		9584900226887C0D00EC7025 /* SprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9584900026887C0D00EC7025 /* SprintViewController.xib */; };
 		958DD8FB269135F0001B4E81 /* NavigationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DD8FA269135F0001B4E81 /* NavigationBuilder.swift */; };
+		958DD900269141A6001B4E81 /* TarefaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DD8FE269141A6001B4E81 /* TarefaViewController.swift */; };
+		958DD901269141A6001B4E81 /* TarefaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 958DD8FF269141A6001B4E81 /* TarefaViewController.xib */; };
 		95BD5F9E268AA69E008344A4 /* SprintRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BD5F9D268AA69E008344A4 /* SprintRouter.swift */; };
 		95BD5FA2268AAD90008344A4 /* EstoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BD5FA0268AAD90008344A4 /* EstoriaViewController.swift */; };
 		95BD5FA3268AAD90008344A4 /* EstoriaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BD5FA1268AAD90008344A4 /* EstoriaViewController.xib */; };
@@ -46,6 +48,8 @@
 		95848FFF26887C0D00EC7025 /* SprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintViewController.swift; sourceTree = "<group>"; };
 		9584900026887C0D00EC7025 /* SprintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SprintViewController.xib; sourceTree = "<group>"; };
 		958DD8FA269135F0001B4E81 /* NavigationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBuilder.swift; sourceTree = "<group>"; };
+		958DD8FE269141A6001B4E81 /* TarefaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaViewController.swift; sourceTree = "<group>"; };
+		958DD8FF269141A6001B4E81 /* TarefaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TarefaViewController.xib; sourceTree = "<group>"; };
 		95BD5F9D268AA69E008344A4 /* SprintRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintRouter.swift; sourceTree = "<group>"; };
 		95BD5FA0268AAD90008344A4 /* EstoriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstoriaViewController.swift; sourceTree = "<group>"; };
 		95BD5FA1268AAD90008344A4 /* EstoriaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EstoriaViewController.xib; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				9584900026887C0D00EC7025 /* SprintViewController.xib */,
 				95BD5FA0268AAD90008344A4 /* EstoriaViewController.swift */,
 				95BD5FA1268AAD90008344A4 /* EstoriaViewController.xib */,
+				958DD8FE269141A6001B4E81 /* TarefaViewController.swift */,
+				958DD8FF269141A6001B4E81 /* TarefaViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 				95BD5FA3268AAD90008344A4 /* EstoriaViewController.xib in Resources */,
 				9584900226887C0D00EC7025 /* SprintViewController.xib in Resources */,
 				956CEC0F2685569600FD6770 /* LaunchScreen.storyboard in Resources */,
+				958DD901269141A6001B4E81 /* TarefaViewController.xib in Resources */,
 				956CEC0C2685569600FD6770 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +299,7 @@
 				95848FF92688080E00EC7025 /* SprintPresenter.swift in Sources */,
 				95BD5F9E268AA69E008344A4 /* SprintRouter.swift in Sources */,
 				95BD5FA5268AB287008344A4 /* EstoriaRouter.swift in Sources */,
+				958DD900269141A6001B4E81 /* TarefaViewController.swift in Sources */,
 				95848FF52687FFC500EC7025 /* SprintClient.swift in Sources */,
 				956CEC002685569500FD6770 /* AppDelegate.swift in Sources */,
 				9584900126887C0D00EC7025 /* SprintViewController.swift in Sources */,

@@ -30,6 +30,13 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8o-WE-G3S">
+                    <rect key="frame" x="179" y="832" width="51" height="30"/>
+                    <state key="normal" title="Tarefas"/>
+                    <connections>
+                        <action selector="nextButton:" destination="-1" eventType="touchUpInside" id="n2q-no-4w8"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -41,8 +48,10 @@
                 <constraint firstItem="eR3-s9-UQL" firstAttribute="leading" secondItem="chJ-UG-4Iw" secondAttribute="trailing" id="H5R-dc-Obk"/>
                 <constraint firstItem="eR3-s9-UQL" firstAttribute="top" secondItem="chJ-UG-4Iw" secondAttribute="top" id="U34-TW-LXc"/>
                 <constraint firstItem="eR3-s9-UQL" firstAttribute="height" secondItem="chJ-UG-4Iw" secondAttribute="height" id="dBc-Jt-gy4"/>
+                <constraint firstItem="J8o-WE-G3S" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="dwT-Ae-z8P"/>
                 <constraint firstItem="chJ-UG-4Iw" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" id="p7I-bA-Uxb"/>
                 <constraint firstItem="eR3-s9-UQL" firstAttribute="width" secondItem="chJ-UG-4Iw" secondAttribute="width" id="rSM-Ld-9tC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="J8o-WE-G3S" secondAttribute="trailing" constant="184" id="u5u-4j-aiN"/>
                 <constraint firstItem="chJ-UG-4Iw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="uEs-Ck-but"/>
             </constraints>
             <point key="canvasLocation" x="139" y="110"/>
