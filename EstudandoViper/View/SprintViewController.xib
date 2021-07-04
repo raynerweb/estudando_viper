@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SprintViewController" customModule="EstudandoViper" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="j78-z0-DxH" id="VIY-o9-5gK"/>
+                <outlet property="sprintNameLabel" destination="WNm-0v-x7n" id="lKc-rM-Sd2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gob-Br-OND">
+                    <rect key="frame" x="16" y="816" width="382" height="30"/>
+                    <state key="normal" title="Buscar"/>
+                    <connections>
+                        <action selector="findButton:" destination="-1" eventType="touchUpInside" id="zLj-ck-0wF"/>
+                    </connections>
+                </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="j78-z0-DxH">
+                    <rect key="frame" x="197" y="438" width="20" height="20"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome da sprint" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNm-0v-x7n">
+                    <rect key="frame" x="148.5" y="437.5" width="117" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Gob-Br-OND" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="5Tz-XS-eqV"/>
+                <constraint firstItem="j78-z0-DxH" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="7Fl-My-wXY"/>
+                <constraint firstItem="WNm-0v-x7n" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GRw-Pq-kiQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Gob-Br-OND" secondAttribute="bottom" constant="16" id="T5W-Fj-dI0"/>
+                <constraint firstItem="WNm-0v-x7n" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="TBG-eW-eSI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Gob-Br-OND" secondAttribute="trailing" constant="16" id="boZ-R5-sn8"/>
+                <constraint firstItem="j78-z0-DxH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tHu-7w-zn7"/>
+            </constraints>
+            <point key="canvasLocation" x="81" y="94"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

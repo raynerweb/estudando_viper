@@ -3,29 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955251D026855D8800023BB1 /* Desenvolvedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955251CF26855D8800023BB1 /* Desenvolvedor.swift */; };
+		955251D226855DBB00023BB1 /* Ponto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955251D126855DBB00023BB1 /* Ponto.swift */; };
+		955251D426855DF900023BB1 /* Sprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955251D326855DF900023BB1 /* Sprint.swift */; };
+		955251D626855E2500023BB1 /* Estoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955251D526855E2500023BB1 /* Estoria.swift */; };
 		956CEC002685569500FD6770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956CEBFF2685569500FD6770 /* AppDelegate.swift */; };
-		956CEC022685569500FD6770 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956CEC012685569500FD6770 /* SceneDelegate.swift */; };
-		956CEC042685569500FD6770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956CEC032685569500FD6770 /* ViewController.swift */; };
-		956CEC072685569500FD6770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956CEC052685569500FD6770 /* Main.storyboard */; };
 		956CEC0A2685569500FD6770 /* EstudandoViper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 956CEC082685569500FD6770 /* EstudandoViper.xcdatamodeld */; };
 		956CEC0C2685569600FD6770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956CEC0B2685569600FD6770 /* Assets.xcassets */; };
 		956CEC0F2685569600FD6770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956CEC0D2685569600FD6770 /* LaunchScreen.storyboard */; };
+		95848FF52687FFC500EC7025 /* SprintClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95848FF42687FFC500EC7025 /* SprintClient.swift */; };
+		95848FF72688044B00EC7025 /* SprintInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95848FF62688044B00EC7025 /* SprintInteractor.swift */; };
+		95848FF92688080E00EC7025 /* SprintPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95848FF82688080E00EC7025 /* SprintPresenter.swift */; };
+		9584900126887C0D00EC7025 /* SprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95848FFF26887C0D00EC7025 /* SprintViewController.swift */; };
+		9584900226887C0D00EC7025 /* SprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9584900026887C0D00EC7025 /* SprintViewController.xib */; };
+		958DD8FB269135F0001B4E81 /* NavigationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DD8FA269135F0001B4E81 /* NavigationBuilder.swift */; };
+		95BD5F9E268AA69E008344A4 /* SprintRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BD5F9D268AA69E008344A4 /* SprintRouter.swift */; };
+		95BD5FA2268AAD90008344A4 /* EstoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BD5FA0268AAD90008344A4 /* EstoriaViewController.swift */; };
+		95BD5FA3268AAD90008344A4 /* EstoriaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BD5FA1268AAD90008344A4 /* EstoriaViewController.xib */; };
+		95BD5FA5268AB287008344A4 /* EstoriaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BD5FA4268AB287008344A4 /* EstoriaRouter.swift */; };
+		A6FAB484FC43888D097B44B7 /* Pods_EstudandoViper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4545ACBC267D30162D3E460B /* Pods_EstudandoViper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4545ACBC267D30162D3E460B /* Pods_EstudandoViper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstudandoViper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		955251CF26855D8800023BB1 /* Desenvolvedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desenvolvedor.swift; sourceTree = "<group>"; };
+		955251D126855DBB00023BB1 /* Ponto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ponto.swift; sourceTree = "<group>"; };
+		955251D326855DF900023BB1 /* Sprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprint.swift; sourceTree = "<group>"; };
+		955251D526855E2500023BB1 /* Estoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estoria.swift; sourceTree = "<group>"; };
 		956CEBFC2685569500FD6770 /* EstudandoViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstudandoViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		956CEBFF2685569500FD6770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		956CEC012685569500FD6770 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		956CEC032685569500FD6770 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		956CEC062685569500FD6770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		956CEC092685569500FD6770 /* EstudandoViper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EstudandoViper.xcdatamodel; sourceTree = "<group>"; };
 		956CEC0B2685569600FD6770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		956CEC0E2685569600FD6770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		956CEC102685569600FD6770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95848FF42687FFC500EC7025 /* SprintClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintClient.swift; sourceTree = "<group>"; };
+		95848FF62688044B00EC7025 /* SprintInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintInteractor.swift; sourceTree = "<group>"; };
+		95848FF82688080E00EC7025 /* SprintPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintPresenter.swift; sourceTree = "<group>"; };
+		95848FFF26887C0D00EC7025 /* SprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintViewController.swift; sourceTree = "<group>"; };
+		9584900026887C0D00EC7025 /* SprintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SprintViewController.xib; sourceTree = "<group>"; };
+		958DD8FA269135F0001B4E81 /* NavigationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBuilder.swift; sourceTree = "<group>"; };
+		95BD5F9D268AA69E008344A4 /* SprintRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintRouter.swift; sourceTree = "<group>"; };
+		95BD5FA0268AAD90008344A4 /* EstoriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstoriaViewController.swift; sourceTree = "<group>"; };
+		95BD5FA1268AAD90008344A4 /* EstoriaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EstoriaViewController.xib; sourceTree = "<group>"; };
+		95BD5FA4268AB287008344A4 /* EstoriaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstoriaRouter.swift; sourceTree = "<group>"; };
+		9F3C56BC907B40C69C8B9474 /* Pods-EstudandoViper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstudandoViper.debug.xcconfig"; path = "Target Support Files/Pods-EstudandoViper/Pods-EstudandoViper.debug.xcconfig"; sourceTree = "<group>"; };
+		EC656BADFDF61569492EF792 /* Pods-EstudandoViper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstudandoViper.release.xcconfig"; path = "Target Support Files/Pods-EstudandoViper/Pods-EstudandoViper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +59,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FAB484FC43888D097B44B7 /* Pods_EstudandoViper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		052033A969AC4AC8954A8B98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4545ACBC267D30162D3E460B /* Pods_EstudandoViper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		955251CA26855AC700023BB1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				95848FF62688044B00EC7025 /* SprintInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		955251CB26855AE200023BB1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				95848FF82688080E00EC7025 /* SprintPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		955251CC26855AF000023BB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95848FFF26887C0D00EC7025 /* SprintViewController.swift */,
+				9584900026887C0D00EC7025 /* SprintViewController.xib */,
+				95BD5FA0268AAD90008344A4 /* EstoriaViewController.swift */,
+				95BD5FA1268AAD90008344A4 /* EstoriaViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		955251CD26855B2500023BB1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				955251CF26855D8800023BB1 /* Desenvolvedor.swift */,
+				955251D126855DBB00023BB1 /* Ponto.swift */,
+				955251D326855DF900023BB1 /* Sprint.swift */,
+				955251D526855E2500023BB1 /* Estoria.swift */,
+				95848FF42687FFC500EC7025 /* SprintClient.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		955251CE26855B2B00023BB1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				95BD5F9D268AA69E008344A4 /* SprintRouter.swift */,
+				95BD5FA4268AB287008344A4 /* EstoriaRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		956CEBF32685569500FD6770 = {
 			isa = PBXGroup;
 			children = (
 				956CEBFE2685569500FD6770 /* EstudandoViper */,
 				956CEBFD2685569500FD6770 /* Products */,
+				AEC269CD9442356E11EEAD07 /* Pods */,
+				052033A969AC4AC8954A8B98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +143,28 @@
 		956CEBFE2685569500FD6770 /* EstudandoViper */ = {
 			isa = PBXGroup;
 			children = (
+				955251CE26855B2B00023BB1 /* Router */,
+				955251CD26855B2500023BB1 /* Entity */,
+				955251CB26855AE200023BB1 /* Presenter */,
+				955251CA26855AC700023BB1 /* Interactor */,
+				955251CC26855AF000023BB1 /* View */,
 				956CEBFF2685569500FD6770 /* AppDelegate.swift */,
-				956CEC012685569500FD6770 /* SceneDelegate.swift */,
-				956CEC032685569500FD6770 /* ViewController.swift */,
-				956CEC052685569500FD6770 /* Main.storyboard */,
 				956CEC0B2685569600FD6770 /* Assets.xcassets */,
 				956CEC0D2685569600FD6770 /* LaunchScreen.storyboard */,
 				956CEC102685569600FD6770 /* Info.plist */,
 				956CEC082685569500FD6770 /* EstudandoViper.xcdatamodeld */,
+				958DD8FA269135F0001B4E81 /* NavigationBuilder.swift */,
 			);
 			path = EstudandoViper;
+			sourceTree = "<group>";
+		};
+		AEC269CD9442356E11EEAD07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F3C56BC907B40C69C8B9474 /* Pods-EstudandoViper.debug.xcconfig */,
+				EC656BADFDF61569492EF792 /* Pods-EstudandoViper.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 956CEC132685569600FD6770 /* Build configuration list for PBXNativeTarget "EstudandoViper" */;
 			buildPhases = (
+				70837FACF8A01FB1BD19BB2C /* [CP] Check Pods Manifest.lock */,
 				956CEBF82685569500FD6770 /* Sources */,
 				956CEBF92685569500FD6770 /* Frameworks */,
 				956CEBFA2685569500FD6770 /* Resources */,
+				48FE5443AC77FC092B5D52FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,37 +226,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BD5FA3268AAD90008344A4 /* EstoriaViewController.xib in Resources */,
+				9584900226887C0D00EC7025 /* SprintViewController.xib in Resources */,
 				956CEC0F2685569600FD6770 /* LaunchScreen.storyboard in Resources */,
 				956CEC0C2685569600FD6770 /* Assets.xcassets in Resources */,
-				956CEC072685569500FD6770 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48FE5443AC77FC092B5D52FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EstudandoViper/Pods-EstudandoViper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EstudandoViper/Pods-EstudandoViper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EstudandoViper/Pods-EstudandoViper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70837FACF8A01FB1BD19BB2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EstudandoViper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		956CEBF82685569500FD6770 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BD5FA2268AAD90008344A4 /* EstoriaViewController.swift in Sources */,
+				958DD8FB269135F0001B4E81 /* NavigationBuilder.swift in Sources */,
 				956CEC0A2685569500FD6770 /* EstudandoViper.xcdatamodeld in Sources */,
-				956CEC042685569500FD6770 /* ViewController.swift in Sources */,
+				955251D426855DF900023BB1 /* Sprint.swift in Sources */,
+				955251D026855D8800023BB1 /* Desenvolvedor.swift in Sources */,
+				955251D226855DBB00023BB1 /* Ponto.swift in Sources */,
+				95848FF72688044B00EC7025 /* SprintInteractor.swift in Sources */,
+				95848FF92688080E00EC7025 /* SprintPresenter.swift in Sources */,
+				95BD5F9E268AA69E008344A4 /* SprintRouter.swift in Sources */,
+				95BD5FA5268AB287008344A4 /* EstoriaRouter.swift in Sources */,
+				95848FF52687FFC500EC7025 /* SprintClient.swift in Sources */,
 				956CEC002685569500FD6770 /* AppDelegate.swift in Sources */,
-				956CEC022685569500FD6770 /* SceneDelegate.swift in Sources */,
+				9584900126887C0D00EC7025 /* SprintViewController.swift in Sources */,
+				955251D626855E2500023BB1 /* Estoria.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		956CEC052685569500FD6770 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				956CEC062685569500FD6770 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		956CEC0D2685569600FD6770 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +431,7 @@
 		};
 		956CEC142685569600FD6770 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3C56BC907B40C69C8B9474 /* Pods-EstudandoViper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +451,7 @@
 		};
 		956CEC152685569600FD6770 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC656BADFDF61569492EF792 /* Pods-EstudandoViper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
