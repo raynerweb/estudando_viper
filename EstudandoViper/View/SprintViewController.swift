@@ -42,6 +42,20 @@ class SprintViewController: UIViewController {
     func setupViews() {
         title = "Sprints"
         view.backgroundColor = .systemTeal
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(
+            title: "Fechar",
+            style: .plain,
+            target: self,
+            action: #selector(dismissViewController))
+    }
+    
+    @objc private func dismissViewController(){
+//        navigationController?.popViewController(animated: true)
+//        dismiss(animated: true, completion: nil)
+        
+        UIControl().sendAction(#selector(NSXPCConnection.suspend),
+                               to: UIApplication.shared, for: nil)
     }
     
     func bind() {
